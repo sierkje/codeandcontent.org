@@ -21,7 +21,7 @@
       padding: 0 .5rem;
     }
     .banner {
-      background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=320);
+      background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=256);
       background-color: #101010;
       background-position: right top;
       background-repeat: no-repeat;
@@ -33,9 +33,44 @@
       padding: 0 calc(16vw + .5rem) 0 .5rem;
       width: auto;
     }
+    @media (min-width: 256.1px and max-width: 512px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=512);
+      }
+    }
+    @media (min-width: 512.1px and max-width: 768px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=768);
+      }
+    }
+    @media (min-width: 768.1px and max-width: 1024px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=1024);
+      }
+    }
+    @media (min-width: 1024.1px and max-width: 1280px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=1280);
+      }
+    }
+    @media (min-width: 1280.1px and max-width: 1536px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=1536);
+      }
+    }
+    @media (min-width: 1536.1px and max-width: 1792px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=1792);
+      }
+    }
+    @media (min-width: 1792.1px) {
+      .banner{
+        background-image: url(https://s.gravatar.com/avatar/553e07fc3b48fe6b344eef94ed010e8f&s=2048);
+      }
+    }
     .banner h1 {
       font-size: 10vw;
-      line-height: 25vw;
+      line-height: 25.25vw;
       margin: 0
     }
   </style>
